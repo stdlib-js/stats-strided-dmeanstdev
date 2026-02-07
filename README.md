@@ -114,6 +114,11 @@ The use of the term `n-1` is commonly referred to as Bessel's correction. Note, 
 To use in Observable,
 
 ```javascript
+dmeanstdev = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmeanstdev@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-strided-dmeanstdev/tags). For example,
+
+```javascript
 dmeanstdev = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmeanstdev@v0.1.1-umd/browser.js' )
 ```
 
@@ -126,7 +131,7 @@ var dmeanstdev = require( 'path/to/vendor/umd/stats-strided-dmeanstdev/index.js'
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmeanstdev@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmeanstdev@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -252,7 +257,7 @@ var v = dmeanstdev.ndarray( 4, 1, x, 2, 1, out, 2, 1 );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmeanstdev@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmeanstdev@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
