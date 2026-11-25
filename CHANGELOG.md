@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-22)
+## Unreleased (2026-11-25)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`f82b54b`](https://github.com/stdlib-js/stdlib/commit/f82b54b5e08de9cea9aaf6e6d179960bc583f3e9) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`60fa32a`](https://github.com/stdlib-js/stdlib/commit/60fa32af22c74ab1576032702a40bc7d94329b86) - **docs:** fix C examples [(#16736)](https://github.com/stdlib-js/stdlib/pull/16736) _(by Subham Mahapatra)_
 -   [`2e01a60`](https://github.com/stdlib-js/stdlib/commit/2e01a608e7bf79369cedb902784df5527c764e74) - **bench:** refactor to use dynamic memory allocation in `stats/strided` [(#11700)](https://github.com/stdlib-js/stdlib/pull/11700) _(by Uday Kakade)_
 -   [`d6c72a0`](https://github.com/stdlib-js/stdlib/commit/d6c72a042cca76e97759951cdbf89375b784e16a) - **bench:** refactor to use string interpolation in `stats/strided` [(#11359)](https://github.com/stdlib-js/stdlib/pull/11359) _(by Karan Anand)_
